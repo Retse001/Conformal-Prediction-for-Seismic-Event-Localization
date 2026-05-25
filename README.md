@@ -7,7 +7,7 @@ This repository contains the complete scientific pipeline, synthetic simulation 
 ## 📁 Repository Structure & GitHub Directory Map
 
 ### 📂 DIR 1: Numerical Simulations and Clustering Foundations
-*Located in the `DIR 1` folder, this section evaluates conformal inference methodologies applied to 2D Gaussian Mixture Models (GMM 2D with 3 components), reproducing and expanding upon the framework by Nath, Hur, and Allen (2026) [arXiv:2604.03488v1].*
+*Located in the `DIR 1` folder, this section evaluates conformal inference methodologies applied to 2D Gaussian Mixture Models (GMM 2D with 3 cluster), reproducing and expanding upon the framework by Nath, Hur, and Allen (2026) [arXiv:2604.03488v1].*
 
 * **`CSFCLestrapolation.R`**: Replicates the *Conformal Sets for Cluster Labels* (CSFCL) methodology across four data-overlapping and noise levels ($\sigma^2 \in \{0.3, 0.5, 0.8, 1.2\}$) corresponding to *very_small*, *small*, *medium*, and *large* variance scenarios.
 * **`ConformalCentroid.R`**: **Proposed Contribution** — Implements our proposed extension to quantify and bound the spatial geometric uncertainty of estimated GMM cluster centroids using conformal prediction blocks.
